@@ -1,0 +1,72 @@
+.calendar__container {
+	background: #FFFFFF;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+	border-radius: 20px;
+	max-width: 1080px;
+	margin: 50px auto;
+	.calendar__header {
+		display: flex;
+		padding: 30px 30px 0 30px;
+		margin: 0;
+		.calendar__search {
+		}
+		.calendar__title {
+			justify-content: center;
+			margin: 0 auto;
+		}
+	}
+	.calendar__main {
+		display: flex;
+		padding: 30px;
+		margin: 0;
+		.calendar__users {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			.user__name {
+				min-width: 150px;
+			}
+		}
+		.calendar__data {
+			display: flex;
+			flex: 1;
+			flex-direction: column;
+			.calendar__days {
+				display: flex;
+				flex-direction: row;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				.day__item {
+					display: flex;
+					justify-content: center;
+					width: 50px;
+					margin: 0;
+				}
+			}
+			.calendar__time {
+				display: flex;
+				flex-direction: row;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				.time__item {
+					display: flex;
+					justify-content: center;
+					width: 50px;
+					width: 50px;
+					margin: 0;
+				}
+			}
+		}
+		.calendar__results {
+			display: flex;
+			flex-direction: row;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			.result__item {
+			}
+		}
+	}
+}
