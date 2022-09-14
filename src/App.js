@@ -1,6 +1,34 @@
 import './App.scss';
 
 function App() {
+	const calendarData = [
+		{
+			"user": "Roma",
+			"munth": "september",
+			"days": "1,2,3,4",
+			"time" : "0:23, 0:44, 3:02, 1:87",
+			
+		},
+		{
+			"user": "Vika",
+			"munth": "september",
+			"days": "1, 2, 3, 4",
+			"time" : "0:23, 0:44, 3:02, 1:87",
+		},
+		{
+			"user": "Pasha",
+			"munth": "september",
+			"days": "1,2,3,4",
+			"time" : "0:23, 0:44, 3:02, 1:87",
+		},
+		{
+			"user": "Masha",
+			"munth": "september",
+			"days": "1,2,3,4",
+			"time" : "0:23, 0:44, 3:02, 1:87",
+		}
+	]
+
 	return (
 		<div className="calendar__container">
 			<div className="calendar__header">
